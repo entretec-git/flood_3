@@ -12,12 +12,28 @@
 		165786CB16D711C800FD8F24 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 165786CA16D711C800FD8F24 /* CoreGraphics.framework */; };
 		165786D116D711C800FD8F24 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 165786CF16D711C800FD8F24 /* InfoPlist.strings */; };
 		165786D316D711C800FD8F24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 165786D216D711C800FD8F24 /* main.m */; };
-		165786D716D711C800FD8F24 /* floodAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 165786D616D711C800FD8F24 /* floodAppDelegate.m */; };
 		165786D916D711C800FD8F24 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 165786D816D711C800FD8F24 /* Default.png */; };
 		165786DB16D711C800FD8F24 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 165786DA16D711C800FD8F24 /* Default@2x.png */; };
 		165786DD16D711C800FD8F24 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 165786DC16D711C800FD8F24 /* Default-568h@2x.png */; };
 		165786E316D711C800FD8F24 /* floodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 165786E216D711C800FD8F24 /* floodViewController.m */; };
 		168B0AD416D713BE007600A9 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 168B0AD316D713BE007600A9 /* MainStoryboard_iPad.storyboard */; };
+		168B0AF116D714B6007600A9 /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 168B0AD616D714B5007600A9 /* CoreDataTableViewController.m */; };
+		168B0AF216D714B6007600A9 /* Flood_Data.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 168B0AD716D714B5007600A9 /* Flood_Data.sqlite */; };
+		168B0AF316D714B6007600A9 /* Flood_Data.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 168B0AD816D714B5007600A9 /* Flood_Data.xcdatamodeld */; };
+		168B0AF416D714B6007600A9 /* flood_draft1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 168B0ADA16D714B5007600A9 /* flood_draft1.xcdatamodeld */; };
+		168B0AF516D714B6007600A9 /* floodFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 168B0ADC16D714B5007600A9 /* floodFlipsideViewController.m */; };
+		168B0AF616D714B6007600A9 /* floodGITViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 168B0ADE16D714B5007600A9 /* floodGITViewController.m */; };
+		168B0AF716D714B6007600A9 /* floodMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 168B0AE016D714B5007600A9 /* floodMainViewController.m */; };
+		168B0AF816D714B6007600A9 /* ModelCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 168B0AE216D714B5007600A9 /* ModelCode.m */; };
+		168B0AF916D714B6007600A9 /* NSObject+Category_Sets.m in Sources */ = {isa = PBXBuildFile; fileRef = 168B0AE416D714B5007600A9 /* NSObject+Category_Sets.m */; };
+		168B0AFA16D714B6007600A9 /* RainData.m in Sources */ = {isa = PBXBuildFile; fileRef = 168B0AE616D714B6007600A9 /* RainData.m */; };
+		168B0AFB16D714B6007600A9 /* RainTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 168B0AE816D714B6007600A9 /* RainTableView.m */; };
+		168B0AFC16D714B6007600A9 /* RainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 168B0AEA16D714B6007600A9 /* RainViewController.m */; };
+		168B0AFD16D714B6007600A9 /* returnPeriodViewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 168B0AEC16D714B6007600A9 /* returnPeriodViewControllerViewController.m */; };
+		168B0AFE16D714B6007600A9 /* SlopeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 168B0AEE16D714B6007600A9 /* SlopeViewController.m */; };
+		168B0AFF16D714B6007600A9 /* SoilTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 168B0AF016D714B6007600A9 /* SoilTypeViewController.m */; };
+		168B0B0316D71736007600A9 /* floodAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 168B0B0216D71736007600A9 /* floodAppDelegate.m */; };
+		168B0B0516D7178F007600A9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 168B0B0416D7178F007600A9 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,14 +45,41 @@
 		165786D016D711C800FD8F24 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		165786D216D711C800FD8F24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		165786D416D711C800FD8F24 /* Flood_3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Flood_3-Prefix.pch"; sourceTree = "<group>"; };
-		165786D516D711C800FD8F24 /* floodAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = floodAppDelegate.h; sourceTree = "<group>"; };
-		165786D616D711C800FD8F24 /* floodAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = floodAppDelegate.m; sourceTree = "<group>"; };
 		165786D816D711C800FD8F24 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		165786DA16D711C800FD8F24 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		165786DC16D711C800FD8F24 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		165786E116D711C800FD8F24 /* floodViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = floodViewController.h; sourceTree = "<group>"; };
 		165786E216D711C800FD8F24 /* floodViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = floodViewController.m; sourceTree = "<group>"; };
 		168B0AD316D713BE007600A9 /* MainStoryboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		168B0AD516D714B5007600A9 /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
+		168B0AD616D714B5007600A9 /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
+		168B0AD716D714B5007600A9 /* Flood_Data.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Flood_Data.sqlite; sourceTree = "<group>"; };
+		168B0AD916D714B5007600A9 /* FailedBankCD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FailedBankCD.xcdatamodel; sourceTree = "<group>"; };
+		168B0ADB16D714B5007600A9 /* floodFlipsideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = floodFlipsideViewController.h; sourceTree = "<group>"; };
+		168B0ADC16D714B5007600A9 /* floodFlipsideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = floodFlipsideViewController.m; sourceTree = "<group>"; };
+		168B0ADD16D714B5007600A9 /* floodGITViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = floodGITViewController.h; sourceTree = "<group>"; };
+		168B0ADE16D714B5007600A9 /* floodGITViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = floodGITViewController.m; sourceTree = "<group>"; };
+		168B0ADF16D714B5007600A9 /* floodMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = floodMainViewController.h; sourceTree = "<group>"; };
+		168B0AE016D714B5007600A9 /* floodMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = floodMainViewController.m; sourceTree = "<group>"; };
+		168B0AE116D714B5007600A9 /* ModelCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelCode.h; sourceTree = "<group>"; };
+		168B0AE216D714B5007600A9 /* ModelCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelCode.m; sourceTree = "<group>"; };
+		168B0AE316D714B5007600A9 /* NSObject+Category_Sets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Category_Sets.h"; sourceTree = "<group>"; };
+		168B0AE416D714B5007600A9 /* NSObject+Category_Sets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Category_Sets.m"; sourceTree = "<group>"; };
+		168B0AE516D714B5007600A9 /* RainData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RainData.h; sourceTree = "<group>"; };
+		168B0AE616D714B6007600A9 /* RainData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RainData.m; sourceTree = "<group>"; };
+		168B0AE716D714B6007600A9 /* RainTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RainTableView.h; sourceTree = "<group>"; };
+		168B0AE816D714B6007600A9 /* RainTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RainTableView.m; sourceTree = "<group>"; };
+		168B0AE916D714B6007600A9 /* RainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RainViewController.h; sourceTree = "<group>"; };
+		168B0AEA16D714B6007600A9 /* RainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RainViewController.m; sourceTree = "<group>"; };
+		168B0AEB16D714B6007600A9 /* returnPeriodViewControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = returnPeriodViewControllerViewController.h; sourceTree = "<group>"; };
+		168B0AEC16D714B6007600A9 /* returnPeriodViewControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = returnPeriodViewControllerViewController.m; sourceTree = "<group>"; };
+		168B0AED16D714B6007600A9 /* SlopeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlopeViewController.h; sourceTree = "<group>"; };
+		168B0AEE16D714B6007600A9 /* SlopeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlopeViewController.m; sourceTree = "<group>"; };
+		168B0AEF16D714B6007600A9 /* SoilTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoilTypeViewController.h; sourceTree = "<group>"; };
+		168B0AF016D714B6007600A9 /* SoilTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoilTypeViewController.m; sourceTree = "<group>"; };
+		168B0B0116D71736007600A9 /* floodAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = floodAppDelegate.h; sourceTree = "<group>"; };
+		168B0B0216D71736007600A9 /* floodAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = floodAppDelegate.m; sourceTree = "<group>"; };
+		168B0B0416D7178F007600A9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				168B0B0516D7178F007600A9 /* CoreData.framework in Frameworks */,
 				165786C716D711C800FD8F24 /* UIKit.framework in Frameworks */,
 				165786C916D711C800FD8F24 /* Foundation.framework in Frameworks */,
 				165786CB16D711C800FD8F24 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +100,32 @@
 		165786BA16D711C700FD8F24 = {
 			isa = PBXGroup;
 			children = (
+				168B0B0416D7178F007600A9 /* CoreData.framework */,
+				168B0B0116D71736007600A9 /* floodAppDelegate.h */,
+				168B0B0216D71736007600A9 /* floodAppDelegate.m */,
+				168B0AD516D714B5007600A9 /* CoreDataTableViewController.h */,
+				168B0AD616D714B5007600A9 /* CoreDataTableViewController.m */,
+				168B0B0016D716B3007600A9 /* DATA */,
+				168B0ADB16D714B5007600A9 /* floodFlipsideViewController.h */,
+				168B0ADC16D714B5007600A9 /* floodFlipsideViewController.m */,
+				168B0ADD16D714B5007600A9 /* floodGITViewController.h */,
+				168B0ADE16D714B5007600A9 /* floodGITViewController.m */,
+				168B0ADF16D714B5007600A9 /* floodMainViewController.h */,
+				168B0AE016D714B5007600A9 /* floodMainViewController.m */,
+				168B0AE116D714B5007600A9 /* ModelCode.h */,
+				168B0AE216D714B5007600A9 /* ModelCode.m */,
+				168B0AE316D714B5007600A9 /* NSObject+Category_Sets.h */,
+				168B0AE416D714B5007600A9 /* NSObject+Category_Sets.m */,
+				168B0AE716D714B6007600A9 /* RainTableView.h */,
+				168B0AE816D714B6007600A9 /* RainTableView.m */,
+				168B0AE916D714B6007600A9 /* RainViewController.h */,
+				168B0AEA16D714B6007600A9 /* RainViewController.m */,
+				168B0AEB16D714B6007600A9 /* returnPeriodViewControllerViewController.h */,
+				168B0AEC16D714B6007600A9 /* returnPeriodViewControllerViewController.m */,
+				168B0AED16D714B6007600A9 /* SlopeViewController.h */,
+				168B0AEE16D714B6007600A9 /* SlopeViewController.m */,
+				168B0AEF16D714B6007600A9 /* SoilTypeViewController.h */,
+				168B0AF016D714B6007600A9 /* SoilTypeViewController.m */,
 				168B0AD316D713BE007600A9 /* MainStoryboard_iPad.storyboard */,
 				165786CC16D711C800FD8F24 /* Flood_3 */,
 				165786C516D711C700FD8F24 /* Frameworks */,
@@ -84,8 +154,6 @@
 		165786CC16D711C800FD8F24 /* Flood_3 */ = {
 			isa = PBXGroup;
 			children = (
-				165786D516D711C800FD8F24 /* floodAppDelegate.h */,
-				165786D616D711C800FD8F24 /* floodAppDelegate.m */,
 				165786E116D711C800FD8F24 /* floodViewController.h */,
 				165786E216D711C800FD8F24 /* floodViewController.m */,
 				165786CD16D711C800FD8F24 /* Supporting Files */,
@@ -105,6 +173,18 @@
 				165786DC16D711C800FD8F24 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		168B0B0016D716B3007600A9 /* DATA */ = {
+			isa = PBXGroup;
+			children = (
+				168B0AD716D714B5007600A9 /* Flood_Data.sqlite */,
+				168B0AD816D714B5007600A9 /* Flood_Data.xcdatamodeld */,
+				168B0ADA16D714B5007600A9 /* flood_draft1.xcdatamodeld */,
+				168B0AE516D714B5007600A9 /* RainData.h */,
+				168B0AE616D714B6007600A9 /* RainData.m */,
+			);
+			name = DATA;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +244,7 @@
 				165786DB16D711C800FD8F24 /* Default@2x.png in Resources */,
 				165786DD16D711C800FD8F24 /* Default-568h@2x.png in Resources */,
 				168B0AD416D713BE007600A9 /* MainStoryboard_iPad.storyboard in Resources */,
+				168B0AF216D714B6007600A9 /* Flood_Data.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,8 +256,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				165786D316D711C800FD8F24 /* main.m in Sources */,
-				165786D716D711C800FD8F24 /* floodAppDelegate.m in Sources */,
 				165786E316D711C800FD8F24 /* floodViewController.m in Sources */,
+				168B0AF116D714B6007600A9 /* CoreDataTableViewController.m in Sources */,
+				168B0AF316D714B6007600A9 /* Flood_Data.xcdatamodeld in Sources */,
+				168B0AF416D714B6007600A9 /* flood_draft1.xcdatamodeld in Sources */,
+				168B0AF516D714B6007600A9 /* floodFlipsideViewController.m in Sources */,
+				168B0AF616D714B6007600A9 /* floodGITViewController.m in Sources */,
+				168B0AF716D714B6007600A9 /* floodMainViewController.m in Sources */,
+				168B0AF816D714B6007600A9 /* ModelCode.m in Sources */,
+				168B0AF916D714B6007600A9 /* NSObject+Category_Sets.m in Sources */,
+				168B0AFA16D714B6007600A9 /* RainData.m in Sources */,
+				168B0AFB16D714B6007600A9 /* RainTableView.m in Sources */,
+				168B0AFC16D714B6007600A9 /* RainViewController.m in Sources */,
+				168B0AFD16D714B6007600A9 /* returnPeriodViewControllerViewController.m in Sources */,
+				168B0AFE16D714B6007600A9 /* SlopeViewController.m in Sources */,
+				168B0AFF16D714B6007600A9 /* SoilTypeViewController.m in Sources */,
+				168B0B0316D71736007600A9 /* floodAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +393,27 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		168B0AD816D714B5007600A9 /* Flood_Data.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				168B0AD916D714B5007600A9 /* FailedBankCD.xcdatamodel */,
+			);
+			currentVersion = 168B0AD916D714B5007600A9 /* FailedBankCD.xcdatamodel */;
+			path = Flood_Data.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		168B0ADA16D714B5007600A9 /* flood_draft1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+			);
+			path = flood_draft1.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 165786BB16D711C700FD8F24 /* Project object */;
 }

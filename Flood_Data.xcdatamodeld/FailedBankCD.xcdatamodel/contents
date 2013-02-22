@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1171" systemVersion="11E53" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="EntranceDesign" representedClassName="EntranceDesign" syncable="YES">
+        <attribute name="entrancecoeff" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="entrancedesign" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="GetValue" representedClassName="GetValue" syncable="YES">
+        <attribute name="getvalue_choice" optional="YES" attributeType="Integer 32" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="getvalue_index" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="getvalue_qe5" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="getvalue_years" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" indexed="YES" syncable="YES"/>
+    </entity>
+    <entity name="PipeDb" representedClassName="PipeDb" syncable="YES">
+        <attribute name="diameter" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="diameter_calc" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pipe_area" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="PipeMaterial" representedClassName="PipeMaterial" syncable="YES">
+        <attribute name="global_mannings" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pipematerial" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="RainData" representedClassName="RainData" syncable="YES">
+        <attribute name="rainfall_area" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rainfall_coeff" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rainfall_hour" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="rainfall_index" attributeType="Integer 32" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="rainfall_year" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Soil_Manning" representedClassName="Soil_Manning" syncable="YES">
+        <attribute name="manning_coeff" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="manning_index" optional="YES" attributeType="Integer 32" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="max_velocity" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="soiltype" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="RainData" positionX="214" positionY="54" width="128" height="120"/>
+        <element name="GetValue" positionX="-846" positionY="-621" width="128" height="120"/>
+        <element name="PipeDb" positionX="-1008" positionY="-477" width="128" height="90"/>
+        <element name="Soil_Manning" positionX="-848" positionY="-468" width="128" height="105"/>
+        <element name="EntranceDesign" positionX="-686" positionY="-621" width="128" height="75"/>
+        <element name="PipeMaterial" positionX="-686" positionY="-468" width="128" height="75"/>
+    </elements>
+</model>
