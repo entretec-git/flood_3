@@ -15,7 +15,6 @@
 		165786D916D711C800FD8F24 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 165786D816D711C800FD8F24 /* Default.png */; };
 		165786DB16D711C800FD8F24 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 165786DA16D711C800FD8F24 /* Default@2x.png */; };
 		165786DD16D711C800FD8F24 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 165786DC16D711C800FD8F24 /* Default-568h@2x.png */; };
-		165786E316D711C800FD8F24 /* floodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 165786E216D711C800FD8F24 /* floodViewController.m */; };
 		168B0AD416D713BE007600A9 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 168B0AD316D713BE007600A9 /* MainStoryboard_iPad.storyboard */; };
 		168B0AF116D714B6007600A9 /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 168B0AD616D714B5007600A9 /* CoreDataTableViewController.m */; };
 		168B0AF216D714B6007600A9 /* Flood_Data.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 168B0AD716D714B5007600A9 /* Flood_Data.sqlite */; };
@@ -48,8 +47,6 @@
 		165786D816D711C800FD8F24 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		165786DA16D711C800FD8F24 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		165786DC16D711C800FD8F24 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		165786E116D711C800FD8F24 /* floodViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = floodViewController.h; sourceTree = "<group>"; };
-		165786E216D711C800FD8F24 /* floodViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = floodViewController.m; sourceTree = "<group>"; };
 		168B0AD316D713BE007600A9 /* MainStoryboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		168B0AD516D714B5007600A9 /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreDataTableViewController.h; path = ../CoreDataTableViewController.h; sourceTree = "<group>"; };
 		168B0AD616D714B5007600A9 /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreDataTableViewController.m; path = ../CoreDataTableViewController.m; sourceTree = "<group>"; };
@@ -154,8 +151,6 @@
 				168B0AEE16D714B6007600A9 /* SlopeViewController.m */,
 				168B0AEF16D714B6007600A9 /* SoilTypeViewController.h */,
 				168B0AF016D714B6007600A9 /* SoilTypeViewController.m */,
-				165786E116D711C800FD8F24 /* floodViewController.h */,
-				165786E216D711C800FD8F24 /* floodViewController.m */,
 			);
 			path = Flood_3;
 			sourceTree = "<group>";
@@ -265,7 +260,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				165786D316D711C800FD8F24 /* main.m in Sources */,
-				165786E316D711C800FD8F24 /* floodViewController.m in Sources */,
 				168B0AF116D714B6007600A9 /* CoreDataTableViewController.m in Sources */,
 				168B0AF316D714B6007600A9 /* Flood_Data.xcdatamodeld in Sources */,
 				168B0AF416D714B6007600A9 /* flood_draft1.xcdatamodeld in Sources */,

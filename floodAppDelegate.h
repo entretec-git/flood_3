@@ -6,10 +6,6 @@
 //  Changed by iMac27
 
 
-
-
-
-
 #import <UIKit/UIKit.h>
 
 @interface floodAppDelegate : UIResponder <UIApplicationDelegate>
@@ -23,4 +19,6 @@
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
 - (void)createEditableCopyOfDatabaseIfNeeded;
+
+
 @end
