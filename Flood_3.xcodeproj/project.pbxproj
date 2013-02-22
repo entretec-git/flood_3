@@ -16,8 +16,8 @@
 		165786D916D711C800FD8F24 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 165786D816D711C800FD8F24 /* Default.png */; };
 		165786DB16D711C800FD8F24 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 165786DA16D711C800FD8F24 /* Default@2x.png */; };
 		165786DD16D711C800FD8F24 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 165786DC16D711C800FD8F24 /* Default-568h@2x.png */; };
-		165786E016D711C800FD8F24 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 165786DE16D711C800FD8F24 /* MainStoryboard.storyboard */; };
 		165786E316D711C800FD8F24 /* floodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 165786E216D711C800FD8F24 /* floodViewController.m */; };
+		168B0AD416D713BE007600A9 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 168B0AD316D713BE007600A9 /* MainStoryboard_iPad.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,9 +34,9 @@
 		165786D816D711C800FD8F24 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		165786DA16D711C800FD8F24 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		165786DC16D711C800FD8F24 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		165786DF16D711C800FD8F24 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		165786E116D711C800FD8F24 /* floodViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = floodViewController.h; sourceTree = "<group>"; };
 		165786E216D711C800FD8F24 /* floodViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = floodViewController.m; sourceTree = "<group>"; };
+		168B0AD316D713BE007600A9 /* MainStoryboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +56,7 @@
 		165786BA16D711C700FD8F24 = {
 			isa = PBXGroup;
 			children = (
+				168B0AD316D713BE007600A9 /* MainStoryboard_iPad.storyboard */,
 				165786CC16D711C800FD8F24 /* Flood_3 */,
 				165786C516D711C700FD8F24 /* Frameworks */,
 				165786C416D711C700FD8F24 /* Products */,
@@ -85,7 +86,6 @@
 			children = (
 				165786D516D711C800FD8F24 /* floodAppDelegate.h */,
 				165786D616D711C800FD8F24 /* floodAppDelegate.m */,
-				165786DE16D711C800FD8F24 /* MainStoryboard.storyboard */,
 				165786E116D711C800FD8F24 /* floodViewController.h */,
 				165786E216D711C800FD8F24 /* floodViewController.m */,
 				165786CD16D711C800FD8F24 /* Supporting Files */,
@@ -163,7 +163,7 @@
 				165786D916D711C800FD8F24 /* Default.png in Resources */,
 				165786DB16D711C800FD8F24 /* Default@2x.png in Resources */,
 				165786DD16D711C800FD8F24 /* Default-568h@2x.png in Resources */,
-				165786E016D711C800FD8F24 /* MainStoryboard.storyboard in Resources */,
+				168B0AD416D713BE007600A9 /* MainStoryboard_iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,14 +189,6 @@
 				165786D016D711C800FD8F24 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		165786DE16D711C800FD8F24 /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				165786DF16D711C800FD8F24 /* en */,
-			);
-			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -264,7 +256,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Flood_3/Flood_3-Prefix.pch";
 				INFOPLIST_FILE = "Flood_3/Flood_3-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -275,7 +269,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Flood_3/Flood_3-Prefix.pch";
 				INFOPLIST_FILE = "Flood_3/Flood_3-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -299,6 +295,7 @@
 				165786E816D711C800FD8F24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
